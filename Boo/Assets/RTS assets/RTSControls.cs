@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityStandardAssets.ImageEffects;
 
 public class RTSControls : MonoBehaviour {
 	public static readonly string UNIT_TAG = "Unit";
@@ -18,6 +19,8 @@ public class RTSControls : MonoBehaviour {
 	RTSEntity hoverHighlight; //unit mouse is hovering over
 	HashSet<Ghost> highlightedUnits = new HashSet<Ghost>(); //units inside selection box
 	HashSet<Ghost> selectedUnits = new HashSet<Ghost>();
+
+	bool paused = false;
 
 	Camera RTSCamera;
 	Transform yellowCircle;
@@ -185,27 +188,25 @@ public class RTSControls : MonoBehaviour {
 			}
 		}
 
+		
 		//pan camera when mouse is at screen edge
 
 		Vector3 panVector = Vector2.zero;
 
-		if (//Input.mousePosition.x <= 0 || 
-			Input.GetKey(KeyCode.A)) {
+		if (Input.mousePosition.x <= 0 || Input.GetKey(KeyCode.A)) {
 			panVector += -Vector3.right;
-		} else if (//Input.mousePosition.x >= Screen.width-1 || 
-			Input.GetKey(KeyCode.D)) {
+		} else if (Input.mousePosition.x >= Screen.width-1 || Input.GetKey(KeyCode.D)) {
 			panVector += Vector3.right;
 		}
 
-		if (//Input.mousePosition.y <= 0 || 
-			Input.GetKey(KeyCode.S)) {
+		if (Input.mousePosition.y <= 0 || Input.GetKey(KeyCode.S)) {
 			panVector += -Vector3.forward;
-		} else if (//Input.mousePosition.y >= Screen.height-1 || 
-			Input.GetKey(KeyCode.W)) {
+		} else if (Input.mousePosition.y >= Screen.height-1 || Input.GetKey(KeyCode.W)) {
 			panVector += Vector3.forward;
 		}
 
 		RTSCamera.transform.position += panVector.normalized * cameraPanSpeed * Time.deltaTime;
+		
 
 		//prevent camera from leaving edges of map
 
@@ -231,6 +232,21 @@ public class RTSControls : MonoBehaviour {
 		}
 
 		RTSCamera.transform.position += panVector;
+		
+		
+		// toggle pause menu
+		
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+			paused = !paused;
+			RTSCamera.GetComponent<BlurOptimized>().enabled = paused; // blur bg
+
+			if (paused) {
+				Time.timeScale = 0;
+			} else {
+				Time.timeScale = 1;
+			}
+			
+		}
 	}
 
 
