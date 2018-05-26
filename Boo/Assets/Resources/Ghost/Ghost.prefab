@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 114000013163381872}
   - component: {fileID: 114807376487571942}
   - component: {fileID: 114741417483906984}
+  - component: {fileID: 114469403348984734}
   m_Layer: 15
   m_Name: Ghost
   m_TagString: Unit
@@ -526,6 +527,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useVRCamera: 1
+--- !u!114 &114469403348984734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011414215246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560112f876f5746c780eca0d404e7139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  radius: 0.5
+  height: 1.4
+  locked: 0
+  lockWhenNotMoving: 0
+  agentTimeHorizon: 2
+  obstacleTimeHorizon: 2
+  maxNeighbours: 10
+  layer: 1
+  collidesWith: -1
+  wallAvoidForce: 1
+  wallAvoidFalloff: 1
+  priority: 0.5
+  center: 1
+  debug: 0
 --- !u!114 &114741417483906984
 MonoBehaviour:
   m_ObjectHideFlags: 1
