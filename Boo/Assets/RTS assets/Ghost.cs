@@ -2,7 +2,9 @@
 using UnityStandardAssets.Characters.ThirdPerson;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using Pathfinding;
 
+[RequireComponent(typeof(Pathfinding.AIPath))]
 public class Ghost : RTSEntity {
 	public static readonly Color LIGHT_BLUE = new Color(0, 0.6f, 1, 0.32f);
 	readonly Color32 YELLOW = new Color32(255, 242, 0, 1);
@@ -17,7 +19,8 @@ public class Ghost : RTSEntity {
 	Timer damageTimer = new Timer(0.07f);
 
 	Material material;
-	AICharacterControl AIScript;
+	GhostPath pathing;
+
 	Animator animator;
 	HealthBar[] healthBars;
 	
@@ -42,7 +45,7 @@ public class Ghost : RTSEntity {
 		healthBars = GetComponentsInChildren<HealthBar>();
 
 		//Get navigation scripts
-		AIScript = GetComponent<AICharacterControl>();
+		pathing = GetComponent<GhostPath>();
 		SetDestination(transform.position);
 
 		attackSFX = (AudioClip)Resources.Load ("Audio/sfx-ghost-attack");
@@ -67,23 +70,25 @@ public class Ghost : RTSEntity {
 
 	// public setter for navmesh target. Do not use internally! Use AIScript.SetDestination instead
 	public void SetDestination(Vector3 destination) {
+        Debug.Log("Set Dest!");
 		if (attacking) {
 			setAttacking(false);
 			GetComponent<AudioSource>().Stop();
 
 			enemy = null;
 		}
-		AIScript.SetDestination(destination);
+		pathing.SetDestination(destination);
 	}
 
 	public void SetTarget(RTSEntity target)
 	{
-		//so that we are unable to switch to attacking distant targets immediately
-		setAttacking(false);
+        Debug.Log("Set Targ!");
+        //so that we are unable to switch to attacking distant targets immediately
+        setAttacking(false);
 		GetComponent<AudioSource>().Stop();
 
 		enemy = target;
-		AIScript.target = target.transform;
+		pathing.SetTarget(target.transform);
 	}
 
 	public void Attack() {
@@ -92,21 +97,21 @@ public class Ghost : RTSEntity {
 		setAttacking(true);
 		
 		// stop moving
-		AIScript.SetDestination(transform.position);
+		pathing.SetDestination(transform.position);
 	}
 
 	public void stun() {
 		animator.SetBool("attack", false);
 		GetComponent<AudioSource> ().Stop ();
 
-		AIScript.Pause();
+        pathing.canMove = false;
 		setHighlight(PURPLE);
 	}
 
 	public void unstun() {
 		animator.SetBool("attack", attacking);
 
-		AIScript.Resume();
+        pathing.canMove = true;
 		setHighlight(false);
 	}
 
