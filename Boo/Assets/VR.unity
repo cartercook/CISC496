@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 13468864}
   m_Layer: 8
   m_Name: Icosphere_506_035
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 31908964}
   m_Layer: 8
   m_Name: Icosphere_234_019
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 40179850}
   m_Layer: 8
   m_Name: Icosphere_234_021
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 42466923}
   m_Layer: 8
   m_Name: Icosphere_052
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -637,7 +637,7 @@ GameObject:
   - component: {fileID: 48015125}
   m_Layer: 8
   m_Name: Icosphere_506_019
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 65060024}
   m_Layer: 8
   m_Name: Icosphere_506_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 69194688}
   m_Layer: 8
   m_Name: Icosphere_494_008
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 73470364}
   m_Layer: 8
   m_Name: Icosphere_506_014
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3744,7 +3744,7 @@ GameObject:
   - component: {fileID: 79189983}
   m_Layer: 8
   m_Name: level0 (1)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3940,7 +3940,7 @@ GameObject:
   - component: {fileID: 82711755}
   m_Layer: 8
   m_Name: Icosphere_494_018
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4029,7 +4029,7 @@ GameObject:
   - component: {fileID: 87347794}
   m_Layer: 8
   m_Name: Icosphere_494_027
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4227,7 +4227,7 @@ GameObject:
   - component: {fileID: 148026412}
   m_Layer: 8
   m_Name: Icosphere_506_022
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4316,7 +4316,7 @@ GameObject:
   - component: {fileID: 161204178}
   m_Layer: 8
   m_Name: Icosphere_506_038
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4405,7 +4405,7 @@ GameObject:
   - component: {fileID: 176571974}
   m_Layer: 8
   m_Name: Icosphere_494_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4494,7 +4494,7 @@ GameObject:
   - component: {fileID: 177866808}
   m_Layer: 8
   m_Name: Ruins_1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4582,7 +4582,7 @@ GameObject:
   - component: {fileID: 182003273}
   m_Layer: 8
   m_Name: Icosphere_506_015
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4671,7 +4671,7 @@ GameObject:
   - component: {fileID: 185029155}
   m_Layer: 8
   m_Name: Cube_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4760,7 +4760,7 @@ GameObject:
   - component: {fileID: 185263012}
   m_Layer: 8
   m_Name: Icosphere_506_031
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4983,7 +4983,7 @@ GameObject:
   - component: {fileID: 199326559}
   m_Layer: 8
   m_Name: Icosphere_506_021
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5333,7 +5333,7 @@ GameObject:
   - component: {fileID: 215227306}
   m_Layer: 8
   m_Name: Icosphere_506_004
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5607,7 +5607,7 @@ GameObject:
   - component: {fileID: 237799884}
   m_Layer: 8
   m_Name: Icosphere_494_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5779,7 +5779,7 @@ GameObject:
   - component: {fileID: 255725244}
   m_Layer: 8
   m_Name: Icosphere_443
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5867,7 +5867,7 @@ GameObject:
   - component: {fileID: 268953456}
   m_Layer: 8
   m_Name: Icosphere_506_026
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5956,7 +5956,7 @@ GameObject:
   - component: {fileID: 285691102}
   m_Layer: 8
   m_Name: Icosphere_234_006
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6045,7 +6045,7 @@ GameObject:
   - component: {fileID: 285985902}
   m_Layer: 8
   m_Name: Icosphere_443_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6416,7 +6416,7 @@ GameObject:
   - component: {fileID: 322578314}
   m_Layer: 8
   m_Name: Cylinder_011
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6640,7 +6640,7 @@ GameObject:
   - component: {fileID: 358590991}
   m_Layer: 8
   m_Name: Icosphere_494_011
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6729,7 +6729,7 @@ GameObject:
   - component: {fileID: 361755253}
   m_Layer: 8
   m_Name: Cube_007
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6818,7 +6818,7 @@ GameObject:
   - component: {fileID: 368359486}
   m_Layer: 8
   m_Name: Icosphere_234_016
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6907,7 +6907,7 @@ GameObject:
   - component: {fileID: 368421621}
   m_Layer: 8
   m_Name: Icosphere_443_006
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6995,7 +6995,7 @@ GameObject:
   - component: {fileID: 444590475}
   m_Layer: 8
   m_Name: Icosphere_234_003
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7147,7 +7147,7 @@ GameObject:
   - component: {fileID: 470237917}
   m_Layer: 8
   m_Name: Icosphere_443_003
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7221,6 +7221,87 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470237915}
   m_Mesh: {fileID: 4300250, guid: 2ee8cbafd24a9fa4486613f38be81983, type: 3}
+--- !u!1 &480358827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 480358828}
+  - component: {fileID: 480358831}
+  - component: {fileID: 480358830}
+  - component: {fileID: 480358829}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &480358828
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480358827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1217613001}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &480358829
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480358827}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!135 &480358830
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480358827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &480358831
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480358827}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &482447552
 GameObject:
   m_ObjectHideFlags: 0
@@ -7321,7 +7402,7 @@ GameObject:
   - component: {fileID: 486462099}
   m_Layer: 8
   m_Name: Icosphere_052_004
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7414,7 +7495,7 @@ GameObject:
   - component: {fileID: 520723392}
   m_Layer: 8
   m_Name: Icosphere_506_017
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7503,7 +7584,7 @@ GameObject:
   - component: {fileID: 531771528}
   m_Layer: 8
   m_Name: Icosphere_506_018
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7876,7 +7957,7 @@ GameObject:
   - component: {fileID: 583649786}
   m_Layer: 8
   m_Name: Icosphere_506_010
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7965,7 +8046,7 @@ GameObject:
   - component: {fileID: 587701014}
   m_Layer: 8
   m_Name: Icosphere_234_015
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8054,7 +8135,7 @@ GameObject:
   - component: {fileID: 612693637}
   m_Layer: 8
   m_Name: Icosphere_506_025
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8143,7 +8224,7 @@ GameObject:
   - component: {fileID: 614322588}
   m_Layer: 8
   m_Name: Icosphere_443_002
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8231,7 +8312,7 @@ GameObject:
   - component: {fileID: 632650214}
   m_Layer: 8
   m_Name: Icosphere_234_004
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8320,7 +8401,7 @@ GameObject:
   - component: {fileID: 633656635}
   m_Layer: 8
   m_Name: Icosphere_234_014
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8409,7 +8490,7 @@ GameObject:
   - component: {fileID: 639223765}
   m_Layer: 8
   m_Name: Icosphere_234
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8498,7 +8579,7 @@ GameObject:
   - component: {fileID: 658578237}
   m_Layer: 8
   m_Name: Icosphere_506_023
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8587,7 +8668,7 @@ GameObject:
   - component: {fileID: 661224997}
   m_Layer: 8
   m_Name: Icosphere_234_024
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8676,7 +8757,7 @@ GameObject:
   - component: {fileID: 665360903}
   m_Layer: 8
   m_Name: Icosphere_506_030
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8765,7 +8846,7 @@ GameObject:
   - component: {fileID: 678293861}
   m_Layer: 8
   m_Name: Icosphere_234_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8854,7 +8935,7 @@ GameObject:
   - component: {fileID: 683294293}
   m_Layer: 8
   m_Name: Icosphere_506_006
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8943,7 +9024,7 @@ GameObject:
   - component: {fileID: 688493598}
   m_Layer: 8
   m_Name: Icosphere_234_027
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9032,7 +9113,7 @@ GameObject:
   - component: {fileID: 696658335}
   m_Layer: 8
   m_Name: Icosphere_506_036
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9319,7 +9400,7 @@ GameObject:
   - component: {fileID: 762050888}
   m_Layer: 8
   m_Name: Icosphere_506_020
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9408,7 +9489,7 @@ GameObject:
   - component: {fileID: 762932608}
   m_Layer: 8
   m_Name: Icosphere_443_007
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9496,7 +9577,7 @@ GameObject:
   - component: {fileID: 764594094}
   m_Layer: 8
   m_Name: Icosphere_506_008
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9585,7 +9666,7 @@ GameObject:
   - component: {fileID: 770736731}
   m_Layer: 8
   m_Name: Icosphere_506_039
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9866,7 +9947,7 @@ GameObject:
   - component: {fileID: 782823544}
   m_Layer: 8
   m_Name: Icosphere_506_011
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9955,7 +10036,7 @@ GameObject:
   - component: {fileID: 783532800}
   m_Layer: 8
   m_Name: Icosphere_494_010
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10138,7 +10219,7 @@ GameObject:
   - component: {fileID: 787736370}
   m_Layer: 8
   m_Name: Cylinder_003_003
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10227,7 +10308,7 @@ GameObject:
   - component: {fileID: 794280451}
   m_Layer: 8
   m_Name: Icosphere_506_028
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10316,7 +10397,7 @@ GameObject:
   - component: {fileID: 801113098}
   m_Layer: 8
   m_Name: Icosphere_494_015
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10405,7 +10486,7 @@ GameObject:
   - component: {fileID: 801504827}
   m_Layer: 8
   m_Name: Icosphere_506
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10494,7 +10575,7 @@ GameObject:
   - component: {fileID: 833959864}
   m_Layer: 8
   m_Name: Icosphere_234_002
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10583,7 +10664,7 @@ GameObject:
   - component: {fileID: 884805049}
   m_Layer: 8
   m_Name: Icosphere_506_002
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10672,7 +10753,7 @@ GameObject:
   - component: {fileID: 898449895}
   m_Layer: 8
   m_Name: Icosphere_234_022
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10761,7 +10842,7 @@ GameObject:
   - component: {fileID: 902987738}
   m_Layer: 8
   m_Name: Icosphere_506_024
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10933,7 +11014,7 @@ Prefab:
     - target: {fileID: 195000011418721548, guid: f77f83e42b06b844cb012db3bafd6fae,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 54000012222174074, guid: f77f83e42b06b844cb012db3bafd6fae,
         type: 2}
@@ -10949,6 +11030,21 @@ Prefab:
         type: 2}
       propertyPath: m_Volume
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010914134084, guid: f77f83e42b06b844cb012db3bafd6fae,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010272286016, guid: f77f83e42b06b844cb012db3bafd6fae,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011093269608, guid: f77f83e42b06b844cb012db3bafd6fae,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -10968,7 +11064,7 @@ GameObject:
   - component: {fileID: 917655482}
   m_Layer: 8
   m_Name: Icosphere_506_042
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11266,7 +11362,7 @@ GameObject:
   - component: {fileID: 935335261}
   m_Layer: 8
   m_Name: Icosphere_506_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11355,7 +11451,7 @@ GameObject:
   - component: {fileID: 935474836}
   m_Layer: 8
   m_Name: Icosphere_506_044
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11765,7 +11861,7 @@ GameObject:
   - component: {fileID: 982518037}
   m_Layer: 8
   m_Name: Icosphere_494_012
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11854,7 +11950,7 @@ GameObject:
   - component: {fileID: 988430118}
   m_Layer: 8
   m_Name: Icosphere_443_008
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11942,7 +12038,7 @@ GameObject:
   - component: {fileID: 989109321}
   m_Layer: 8
   m_Name: Cube_013
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12031,7 +12127,7 @@ GameObject:
   - component: {fileID: 1003617499}
   m_Layer: 8
   m_Name: Icosphere_506_029
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12250,7 +12346,7 @@ GameObject:
   - component: {fileID: 1048415733}
   m_Layer: 8
   m_Name: Icosphere_494_009
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12572,7 +12668,7 @@ GameObject:
   - component: {fileID: 1077672902}
   m_Layer: 8
   m_Name: Icosphere_506_009
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12661,7 +12757,7 @@ GameObject:
   - component: {fileID: 1078623989}
   m_Layer: 8
   m_Name: Icosphere_494_020
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13009,7 +13105,7 @@ GameObject:
   - component: {fileID: 1109768104}
   m_Layer: 8
   m_Name: Icosphere_234_023
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13098,7 +13194,7 @@ GameObject:
   - component: {fileID: 1129267514}
   m_Layer: 8
   m_Name: Icosphere_065
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13186,7 +13282,7 @@ GameObject:
   - component: {fileID: 1146136874}
   m_Layer: 8
   m_Name: Icosphere_506_007
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13363,7 +13459,7 @@ GameObject:
   - component: {fileID: 1173776073}
   m_Layer: 8
   m_Name: Icosphere_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13561,6 +13657,109 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1217612997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1217613001}
+  - component: {fileID: 1217613000}
+  - component: {fileID: 1217612999}
+  - component: {fileID: 1217612998}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1217612998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1217612997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask: -1
+--- !u!114 &1217612999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1217612997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+  repathRate: 0.5
+  canSearch: 1
+  canMove: 1
+  maxSpeed: 1
+  gravity: {x: NaN, y: NaN, z: NaN}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  centerOffset: 1
+  rotationIn2D: 0
+  targetCompatibility: {fileID: 0}
+  maxAcceleration: -2.5
+  rotationSpeed: 360
+  slowdownDistance: 0.6
+  pickNextWaypointDist: 2
+  endReachedDistance: 0.2
+  alwaysDrawGizmos: 0
+  slowWhenNotFacingTarget: 1
+  whenCloseToDestination: 0
+  constrainInsideGraph: 0
+--- !u!114 &1217613000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1217612997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  target: {fileID: 1089299849}
+--- !u!4 &1217613001
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1217612997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.1, y: 0, z: -31.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480358828}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1226711563
 Prefab:
   m_ObjectHideFlags: 0
@@ -13611,7 +13810,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011414215246, guid: f77f83e42b06b844cb012db3bafd6fae, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 223000011913599780, guid: f77f83e42b06b844cb012db3bafd6fae,
         type: 2}
@@ -13699,7 +13898,7 @@ GameObject:
   - component: {fileID: 1238059177}
   m_Layer: 8
   m_Name: Cube_007_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13788,7 +13987,7 @@ GameObject:
   - component: {fileID: 1248065364}
   m_Layer: 8
   m_Name: Icosphere_506_040
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14045,7 +14244,7 @@ GameObject:
   - component: {fileID: 1279396696}
   m_Layer: 8
   m_Name: Cube_021
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14140,7 +14339,7 @@ GameObject:
   - component: {fileID: 1296982191}
   m_Layer: 8
   m_Name: Icosphere_052_002
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14228,7 +14427,7 @@ GameObject:
   - component: {fileID: 1301084917}
   m_Layer: 8
   m_Name: Icosphere_506_003
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14317,7 +14516,7 @@ GameObject:
   - component: {fileID: 1305121124}
   m_Layer: 8
   m_Name: Icosphere_234_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14777,7 +14976,7 @@ GameObject:
   - component: {fileID: 1458133523}
   m_Layer: 8
   m_Name: Icosphere_234_013
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14866,7 +15065,7 @@ GameObject:
   - component: {fileID: 1463776818}
   m_Layer: 8
   m_Name: Icosphere_506_034
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14955,7 +15154,7 @@ GameObject:
   - component: {fileID: 1466351301}
   m_Layer: 8
   m_Name: Icosphere_506_013
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15044,7 +15243,7 @@ GameObject:
   - component: {fileID: 1482551374}
   m_Layer: 8
   m_Name: Icosphere_234_025
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15133,7 +15332,7 @@ GameObject:
   - component: {fileID: 1484240486}
   m_Layer: 8
   m_Name: Icosphere_494_003
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15222,7 +15421,7 @@ GameObject:
   - component: {fileID: 1505277942}
   m_Layer: 8
   m_Name: Icosphere_494_026
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15311,7 +15510,7 @@ GameObject:
   - component: {fileID: 1541396066}
   m_Layer: 8
   m_Name: Icosphere_052_005
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15399,7 +15598,7 @@ GameObject:
   - component: {fileID: 1543247207}
   m_Layer: 8
   m_Name: Icosphere_494_014
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15488,7 +15687,7 @@ GameObject:
   - component: {fileID: 1550620067}
   m_Layer: 8
   m_Name: Icosphere_494_006
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15572,13 +15771,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1561422441}
   - component: {fileID: 1561422440}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: A*
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1561422440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15592,7 +15791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACgn+tV1VaSNAIAAMcEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGFVE1z2jAQ/SuMzk3HJgkpvbWG0B5IMiGdXnxZ7DXWIEsefYSQDP+9K1lgQw49WX7v7erth/3BuDQtFlbpheblUpXIvo+YP7MvIwaBewbLFcEpIdyoBq3mxQ+5EV6bEOgkr5Ru5uUGM2WsIbgCYZAorayPlgR9jNhbDNjH57t/jg50KlBa1P9TOVkIaFosV/wde3F6cxPldApCSYVEjXddKCG4iTaY3behygxa46gIEpQcqKxgwOtr5Jva0st4GPxYVQZtNKVhP+OautNlZT+VrX2mBsy2c/YKwuHJepdy+Ym9SgNdadX8Ot6aJv4GW/Ni+wz7AowddHQIz85tO7kDsYW1wL81yge10MrJkkirnQ91BsezQapTZVmNxbbXdV4vQNd+nk7aT+cQan/LBG/WHvl60wEroUK3pz4GNc3lNxkOO2FiJkK9iT8GX2AzXJ5I3HNtLFHxQundrZXTXsrmoWe+GGczpSUGOHpuUYKw+ydKYy8HeMENrr1g7sF/HvHyyB23/yIkwL0+SS6oJ7U7DcvUardEUz86K7jE3rQnHqhPmZKy269hT45hK6crKAZhG8fL89Vi6SS5hsldmayvxzC9q66mMJ1O0mny7fb2bo23wMLucUl1gnjqjMb20NRkn1zSnh1/DKOFhjbseqlht+DvjRq0nMtKrQqNKB/PMhjUdAd9kuW85NSfFVrLZRg3+8iZUMUWy/ykz0Oh8zerIe+rz1nLX5X1SM6y8MvI2YEd/gFQSwMEFAAACAgAAKCf6woFj+ptAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPUMzTTUVBKL0osyCgGihiCOKWZKSB2tJKhmYFxopl5ikGSsVGipXmarmWipaWZoaWBhampeVKqaaJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAKCf61XVVpI0AgAAxwQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAKCf6woFj+ptAAAAeAAAAAkAJAAAAAAAAAAAAAAAgQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAA5AwAAAAA=
+    dataString: UEsDBBQAAAgIAACgn+sVFmq/PAIAANUEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGFVE1z2jAQ/SuMzm3GECClt9YhtIcEJrTTiy+LvcYaZMmjjxBg+O9dyQK75NCT5bdfb9+udGJcmgZzq/RC8+JZFci+Dpg/s08DBsH2CpYrgoeEcKNqtJrn3+RWeN+EQCd5qXQ9L7aYKmMNwSUIg2TSyvpoSdBpwN5jwCF+j/47ONMpR2lR/8/LyVxA3WCx5kfsnIfjcXSnU3CU1Ej08axzJQQ3kQazhyZ0mUJjHDVBDgUHaisQSO4mBFTIt5X14XfjfoJlWRq0kZiGwyPXpFCbmX1XtvLZajC7lt0bCBdITKfjtoU28fMHj9F0dCFfalX/uNZPfCVb8Xz3CoccjO2p24cfuxaGQao9iB1sBP6pUL6ohVZOFr1YZ3D02Pu/tphWmHtyVju8Er4BXfNxVMNuVOcgwnsqeL0Jko5bYC1UkH7mY1DTkH4S47AgJmYi1JP4bfAXbPubFA1PXBtLplhQenYb5bR3ZfMgmm/G2VRpiQGOnBuUIOxhRWns7SRvbL2yN5Yn8HclFo+2y1W4CQlw558kN6aV2l+nZSq1f0ZTLZ0VXGJH2hteSKdUSdkuWl+TS9ja6RLyXtjW8eLf/WLDaXIP04ci2dyPYPZQfp7BbDYdzpIvk8nDBifAwvJxSX2CWLVEozw0Ndkll7Rol1disNDQhKUvNOwX/FirnuRclmqda0S5bDNciaOmInRBi3nBSaA1WstlmDc7ZUyofIdFdk2UhU7n71ZD1mXJWMPflPVIxtLwgGTszM5/AVBLAwQUAAAICAAAoJ/rCgWP6m0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9QzNNNRUEovSizIKAaKGII4pZkpIHa0kqGZgXGimXmKQZKxUaKleZquZaKlpZmhpYGFqal5UqppolIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAoJ/rFRZqvzwCAADVBAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAoJ/rCgWP6m0AAAB4AAAACQAkAAAAAAAAAAAAAACJAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAEEDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -15619,7 +15818,39 @@ MonoBehaviour:
     _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
     _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
     _AreaColors: []
-  tagNames: []
+  tagNames:
+  - Basic Ground
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
@@ -15632,7 +15863,7 @@ MonoBehaviour:
     seed: 0
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
-  showGraphs: 0
+  showGraphs: 1
 --- !u!4 &1561422441
 Transform:
   m_ObjectHideFlags: 0
@@ -18393,7 +18624,7 @@ GameObject:
   - component: {fileID: 1589317588}
   m_Layer: 8
   m_Name: Icosphere_234_018
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18482,7 +18713,7 @@ GameObject:
   - component: {fileID: 1597748603}
   m_Layer: 8
   m_Name: Icosphere_494_025
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18571,7 +18802,7 @@ GameObject:
   - component: {fileID: 1603251347}
   m_Layer: 8
   m_Name: Icosphere_494_024
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18660,7 +18891,7 @@ GameObject:
   - component: {fileID: 1607169585}
   m_Layer: 8
   m_Name: Icosphere_494
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18749,7 +18980,7 @@ GameObject:
   - component: {fileID: 1611587928}
   m_Layer: 8
   m_Name: Icosphere_494_002
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18838,7 +19069,7 @@ GameObject:
   - component: {fileID: 1611750418}
   m_Layer: 8
   m_Name: Icosphere_494_022
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18927,7 +19158,7 @@ GameObject:
   - component: {fileID: 1633758939}
   m_Layer: 8
   m_Name: Icosphere_234_008
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19016,7 +19247,7 @@ GameObject:
   - component: {fileID: 1652800792}
   m_Layer: 8
   m_Name: Icosphere_494_021
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19105,7 +19336,7 @@ GameObject:
   - component: {fileID: 1674744232}
   m_Layer: 8
   m_Name: Icosphere_234_026
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19194,7 +19425,7 @@ GameObject:
   - component: {fileID: 1718050498}
   m_Layer: 8
   m_Name: Icosphere_234_009
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19283,7 +19514,7 @@ GameObject:
   - component: {fileID: 1726758314}
   m_Layer: 8
   m_Name: Icosphere_234_012
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19372,7 +19603,7 @@ GameObject:
   - component: {fileID: 1728996235}
   m_Layer: 8
   m_Name: Icosphere_506_032
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19459,9 +19690,9 @@ GameObject:
   - component: {fileID: 1736576701}
   - component: {fileID: 1736576700}
   - component: {fileID: 1736576699}
-  m_Layer: 8
+  m_Layer: 18
   m_Name: Circle
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967263
@@ -19614,7 +19845,7 @@ GameObject:
   - component: {fileID: 1750345255}
   m_Layer: 8
   m_Name: Icosphere_494_016
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19703,7 +19934,7 @@ GameObject:
   - component: {fileID: 1753732020}
   m_Layer: 8
   m_Name: Icosphere_052_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22611,7 +22842,7 @@ GameObject:
   - component: {fileID: 1807356363}
   m_Layer: 8
   m_Name: Icosphere_443_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22777,7 +23008,7 @@ GameObject:
   - component: {fileID: 1815292642}
   m_Layer: 8
   m_Name: Icosphere_506_041
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25593,7 +25824,7 @@ GameObject:
   - component: {fileID: 1828200180}
   m_Layer: 8
   m_Name: Icosphere_494_007
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25682,7 +25913,7 @@ GameObject:
   - component: {fileID: 1837107361}
   m_Layer: 8
   m_Name: Icosphere_506_012
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25771,7 +26002,7 @@ GameObject:
   - component: {fileID: 1843060946}
   m_Layer: 8
   m_Name: Icosphere_506_016
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26043,7 +26274,7 @@ GameObject:
   - component: {fileID: 1846670979}
   m_Layer: 8
   m_Name: Icosphere_234_020
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26317,7 +26548,7 @@ GameObject:
   - component: {fileID: 1861559517}
   m_Layer: 8
   m_Name: Icosphere_494_019
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26406,7 +26637,7 @@ GameObject:
   - component: {fileID: 1886580945}
   m_Layer: 8
   m_Name: Icosphere_506_043
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26593,7 +26824,7 @@ GameObject:
   - component: {fileID: 1931228092}
   m_Layer: 8
   m_Name: Icosphere_506_027
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26682,7 +26913,7 @@ GameObject:
   - component: {fileID: 1933343841}
   m_Layer: 8
   m_Name: Icosphere_494_013
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26868,7 +27099,7 @@ GameObject:
   - component: {fileID: 1951676820}
   m_Layer: 8
   m_Name: Icosphere_494_004
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26957,7 +27188,7 @@ GameObject:
   - component: {fileID: 1956642559}
   m_Layer: 8
   m_Name: Cube_002
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -27046,7 +27277,7 @@ GameObject:
   - component: {fileID: 1957752279}
   m_Layer: 8
   m_Name: Icosphere_234_017
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -27135,7 +27366,7 @@ GameObject:
   - component: {fileID: 1957804420}
   m_Layer: 8
   m_Name: Icosphere_052_003
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -27354,7 +27585,7 @@ GameObject:
   - component: {fileID: 2016475896}
   m_Layer: 8
   m_Name: Cube_012_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -27514,6 +27745,77 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &2016681028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2016681026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+  repathRate: 0.5
+  canSearch: 1
+  canMove: 1
+  maxSpeed: 5
+  gravity: {x: NaN, y: NaN, z: NaN}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  centerOffset: 1
+  rotationIn2D: 0
+  targetCompatibility: {fileID: 0}
+  maxAcceleration: -2.5
+  rotationSpeed: 360
+  slowdownDistance: 0.6
+  pickNextWaypointDist: 2
+  endReachedDistance: 0.2
+  alwaysDrawGizmos: 0
+  slowWhenNotFacingTarget: 1
+  whenCloseToDestination: 0
+  constrainInsideGraph: 0
+--- !u!114 &2016681029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2016681026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask: -1
+--- !u!114 &2016681030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2016681026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  target: {fileID: 1089299849}
 --- !u!1 &2033981619
 GameObject:
   m_ObjectHideFlags: 0
@@ -27787,7 +28089,7 @@ GameObject:
   - component: {fileID: 2041369948}
   m_Layer: 8
   m_Name: Icosphere_234_011
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28027,7 +28329,7 @@ GameObject:
   - component: {fileID: 2051193421}
   m_Layer: 8
   m_Name: Icosphere_234_010
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28116,7 +28418,7 @@ GameObject:
   - component: {fileID: 2054406776}
   m_Layer: 8
   m_Name: Icosphere_443_004
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28209,7 +28511,7 @@ GameObject:
   - component: {fileID: 2072197652}
   m_Layer: 8
   m_Name: Icosphere_005_001
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28413,7 +28715,7 @@ GameObject:
   - component: {fileID: 2080010833}
   m_Layer: 8
   m_Name: Icosphere_494_017
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28502,7 +28804,7 @@ GameObject:
   - component: {fileID: 2081069099}
   m_Layer: 8
   m_Name: Icosphere_506_037
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28591,7 +28893,7 @@ GameObject:
   - component: {fileID: 2089440100}
   m_Layer: 8
   m_Name: Icosphere_494_023
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29069,7 +29371,7 @@ GameObject:
   - component: {fileID: 2130190764}
   m_Layer: 8
   m_Name: Icosphere_234_007
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29158,7 +29460,7 @@ GameObject:
   - component: {fileID: 2145154864}
   m_Layer: 8
   m_Name: Icosphere_506_033
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

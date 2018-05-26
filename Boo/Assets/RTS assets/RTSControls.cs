@@ -36,7 +36,7 @@ public class RTSControls : MonoBehaviour {
 		SELECT_TEXTURE.Apply();
 
 		// layer masks
-		TERRAIN_MASK = LayerMask.GetMask("Terrain");
+		TERRAIN_MASK = LayerMask.GetMask("Ground");
 		SELECTABLE_MASK = LayerMask.GetMask("Unit", "Player Avatar", "Grave");
 
 
