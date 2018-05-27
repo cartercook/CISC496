@@ -540,7 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   radius: 0.5
-  height: 1.4
+  height: 1.25
   locked: 0
   lockWhenNotMoving: 0
   agentTimeHorizon: 2
