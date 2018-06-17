@@ -1,12 +1,23 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using Resources = TypeSafety.Resources;
 using UnityEngine;
+
+/// Destinations remain on the map until the ghost reaches it or touches a stationary ghost in the same group.
+/// Once this occurs, the destination is moved to back to its ghost.
+/// Two ghosts with intersecting destinations are grouped together.
+/// drag-selected ghosts are always grouped.
+///
+/// If this ghost's destination lands on another stationary ghost:
+/// 	This ghost joins the stationary ghost's group.
+/// Else:
+/// 	A new group is created and assigned to this ghost.
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))] // for trigger-trigger collisions
 public class GhostDestination : MonoBehaviour {
 	// The group this destination belongs to
-	Guid group;
+	public Guid group;
 	
 	// ghost this group belongs to (and its path)
 	Ghost ghost;
@@ -32,11 +43,11 @@ public class GhostDestination : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other)
 	{
-		// TODO: set proximity detector to only collide with Unit
+		// TODO: set this to only collide with other GhostDestinations
 		GhostPath otherPath = other.GetComponent<GhostPath>();
 		
-		if ((otherPath.isStopped || otherPath.reachedEndOfPath) && Vector3.Distance(ghostPath.destination, otherPath.destination) < 1) {
-			// 
+		if ((otherPath.isStopped || otherPath.reachedEndOfPath) && ghost.destination.group//TODO) {
+			// stop ghost
 			ghostPath.SetDestination(ghost.transform.position);
 			
 		}

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Resources = TypeSafety.Resources;
 using UnityStandardAssets.Characters.ThirdPerson;
 using System.Collections.Generic;
 using UnityEngine.UI;
@@ -10,6 +11,7 @@ public class Ghost : RTSEntity {
 	readonly Color32 YELLOW = new Color32(255, 242, 0, 1);
 
 	public RTSEntity enemy;
+	public GhostDestination destination;
 
 	const float FULL_HEALTH = 10;
 	readonly Color PURPLE = new Color32(144, 66, 244, 82); // purple = stunned
@@ -33,7 +35,7 @@ public class Ghost : RTSEntity {
 
 	void Start () {
 		//play spawn sound
-		spawnSFX = (AudioClip) Resources.Load("Audio/sfx-ghost-spawn");
+		spawnSFX = Resources.Audio.sfxghostspawn;
 		GetComponent<AudioSource>().PlayOneShot(spawnSFX);
 
 		//Get child components
@@ -48,7 +50,10 @@ public class Ghost : RTSEntity {
 		pathing = GetComponent<GhostPath>();
 		SetDestination(transform.position);
 
-		attackSFX = (AudioClip)Resources.Load ("Audio/sfx-ghost-attack");
+		attackSFX = Resources.Audio.sfxghostattack;
+		
+		// create associated GhostDestination object
+		destination = GhostDestination.Instantiate(this);
 	}
 
 	void Update() {
@@ -144,7 +149,7 @@ public class Ghost : RTSEntity {
 
 		if (health <= 0) {
 			//play sound
-			AudioClip deathSFX = (AudioClip)Resources.Load("Audio/sfx-ghost-dying");
+			AudioClip deathSFX = Resources.Audio.sfxghostdying;
 			GetComponent<AudioSource>().PlayOneShot(deathSFX, 0.1f);
 
 			// begin ghost death animation
