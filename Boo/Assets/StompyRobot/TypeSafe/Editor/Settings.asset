@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   AutoRebuild: 1
-  ClassNamePrefix: SR
+  ClassNamePrefix: 
   ClassNameSuffix: 
   EnableWaiting: 1
   EnableWhitelist: 0
   HasShownWelcome: 1
   IncludeNonActiveScenes: 0
   MinimumBuildTime: 3.5
-  Namespace: 
+  Namespace: TypeSafety
   OutputDirectory: $TYPESAFE$/usr
   ResourceFolderFilter: []
   TriggerOnInputChange: 1

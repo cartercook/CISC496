@@ -544,12 +544,19 @@ namespace TypeSafety {
                 }
             }
             
+            public static global::TypeSafe.PrefabResource GhostDestination {
+                get {
+                    return ((global::TypeSafe.PrefabResource)(__ts_internal_resources[5]));
+                }
+            }
+            
             private static global::System.Collections.Generic.IList<global::TypeSafe.IResource> __ts_internal_resources = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.IResource>(new global::TypeSafe.IResource[] {
                         new global::TypeSafe.PrefabResource("_Ghost", "Ghost/Ghost"),
                         new global::TypeSafe.Resource<global::UnityEngine.AnimationClip>("ghostBob", "Ghost/ghostBob"),
                         new global::TypeSafe.Resource<global::UnityEngine.RuntimeAnimatorController>("ghost-w", "Ghost/ghost-w"),
                         new global::TypeSafe.Resource<global::UnityEngine.AnimationClip>("ghostWobble", "Ghost/ghostWobble"),
-                        new global::TypeSafe.Resource<global::UnityEngine.AnimationClip>("ghostAttack", "Ghost/ghostAttack")});
+                        new global::TypeSafe.Resource<global::UnityEngine.AnimationClip>("ghostAttack", "Ghost/ghostAttack"),
+                        new global::TypeSafe.PrefabResource("GhostDestination", "Ghost/GhostDestination")});
             
             /// <summary>
             /// Return a list of all resources in this folder.

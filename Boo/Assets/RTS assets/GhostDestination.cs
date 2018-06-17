@@ -1,25 +1,33 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using TypeSafety;
+using Resources = TypeSafety.Resources;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))] // for trigger-trigger collisions
 public class GhostDestination : MonoBehaviour {
 	// The group this destination belongs to
-	public Guid group;
+	Guid group;
 	
+	// ghost this group belongs to (and its path)
 	Ghost ghost;
 	GhostPath ghostPath;
 	
-	// Use this for initialization
-	void Start ()
+	// Called by ghost
+	public static GhostDestination Instantiate(Ghost ghost)
 	{
-		group = Guid.NewGuid();
-		ghost = transform.parent.GetComponent<Ghost>();
-		ghostPath = ghost.GetComponent<GhostPath>();
+		// position
+		Vector3 startPos = ghost.transform.position;
+		startPos.y = 0;
+		
+		// instantiate
+		GhostDestination ghostDest = Resources.Ghost.GhostDestination.Instantiate(startPos).GetComponent<GhostDestination>();
+		
+		// setup
+		ghostDest.group = Guid.NewGuid();
+		ghostDest.ghost = ghost;
+		ghostDest.ghostPath = ghost.GetComponent<GhostPath>();
+		
+		return ghostDest;
 	}
 	
 	void OnTriggerEnter(Collider other)
