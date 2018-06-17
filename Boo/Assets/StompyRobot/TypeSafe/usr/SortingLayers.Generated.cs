@@ -12,27 +12,29 @@
 // 
 // ------------------------------------------------------------------------------
 
-
-
-public sealed class SRSortingLayers {
+namespace TypeSafety {
     
-    private SRSortingLayers() {
-    }
     
-    private const string _tsInternal = "1.3.2-Unity5";
-    
-    public static global::TypeSafe.SortingLayer Default {
-        get {
-            return __all[0];
+    public sealed class SortingLayers {
+        
+        private SortingLayers() {
         }
-    }
-    
-    private static global::System.Collections.Generic.IList<global::TypeSafe.SortingLayer> __all = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.SortingLayer>(new global::TypeSafe.SortingLayer[] {
-                new global::TypeSafe.SortingLayer("Default", 0)});
-    
-    public static global::System.Collections.Generic.IList<global::TypeSafe.SortingLayer> All {
-        get {
-            return __all;
+        
+        private const string _tsInternal = "1.3.2-Unity5";
+        
+        public static global::TypeSafe.SortingLayer Default {
+            get {
+                return __all[0];
+            }
+        }
+        
+        private static global::System.Collections.Generic.IList<global::TypeSafe.SortingLayer> __all = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.SortingLayer>(new global::TypeSafe.SortingLayer[] {
+                    new global::TypeSafe.SortingLayer("Default", 0)});
+        
+        public static global::System.Collections.Generic.IList<global::TypeSafe.SortingLayer> All {
+            get {
+                return __all;
+            }
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using TypeSafety;
 using UnityEngine.UI;
+using Resources = UnityEngine.Resources;
 
 public class Grave : RTSEnemy {
 	const float FULL_HEALTH = 100;
@@ -43,7 +45,7 @@ public class Grave : RTSEnemy {
 	public void Destroy() {
 		// create ghost object
 		Instantiate(Resources.Load("Ghost/Ghost"), transform.parent.position, transform.parent.rotation);
-		int ghostsRemaining = GameObject.FindGameObjectsWithTag(RTSControls.UNIT_TAG).Length;
+		int ghostsRemaining = GameObject.FindGameObjectsWithTag(Tags.Unit).Length;
 		GameObject.Find("Ghosts Killed").GetComponent<Text>().text = ghostsRemaining.ToString();
 
 		// kill your parents

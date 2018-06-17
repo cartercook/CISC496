@@ -12,59 +12,61 @@
 // 
 // ------------------------------------------------------------------------------
 
-
-
-public sealed class SRTags {
+namespace TypeSafety {
     
-    private SRTags() {
-    }
     
-    private const string _tsInternal = "1.3.2-Unity5";
-    
-    public const string Untagged = "Untagged";
-    
-    public const string Respawn = "Respawn";
-    
-    public const string Finish = "Finish";
-    
-    public const string EditorOnly = "EditorOnly";
-    
-    public const string MainCamera = "MainCamera";
-    
-    public const string Player = "Player";
-    
-    public const string GameController = "GameController";
-    
-    public const string Unit = "Unit";
-    
-    public const string LightBall = "LightBall";
-    
-    public const string BombBall = "BombBall";
-    
-    public const string Ground = "Ground";
-    
-    public const string Obstacle = "Obstacle";
-    
-    public const string Basic_Ground = "Basic Ground";
-    
-    private static global::System.Collections.Generic.IList<string> __all = new global::System.Collections.ObjectModel.ReadOnlyCollection<string>(new string[] {
-                "Untagged",
-                "Respawn",
-                "Finish",
-                "EditorOnly",
-                "MainCamera",
-                "Player",
-                "GameController",
-                "Unit",
-                "LightBall",
-                "BombBall",
-                "Ground",
-                "Obstacle",
-                "Basic Ground"});
-    
-    public static global::System.Collections.Generic.IList<string> All {
-        get {
-            return __all;
+    public sealed class Tags {
+        
+        private Tags() {
+        }
+        
+        private const string _tsInternal = "1.3.2-Unity5";
+        
+        public const string Untagged = "Untagged";
+        
+        public const string Respawn = "Respawn";
+        
+        public const string Finish = "Finish";
+        
+        public const string EditorOnly = "EditorOnly";
+        
+        public const string MainCamera = "MainCamera";
+        
+        public const string Player = "Player";
+        
+        public const string GameController = "GameController";
+        
+        public const string Unit = "Unit";
+        
+        public const string LightBall = "LightBall";
+        
+        public const string BombBall = "BombBall";
+        
+        public const string Ground = "Ground";
+        
+        public const string Obstacle = "Obstacle";
+        
+        public const string Basic_Ground = "Basic Ground";
+        
+        private static global::System.Collections.Generic.IList<string> __all = new global::System.Collections.ObjectModel.ReadOnlyCollection<string>(new string[] {
+                    "Untagged",
+                    "Respawn",
+                    "Finish",
+                    "EditorOnly",
+                    "MainCamera",
+                    "Player",
+                    "GameController",
+                    "Unit",
+                    "LightBall",
+                    "BombBall",
+                    "Ground",
+                    "Obstacle",
+                    "Basic Ground"});
+        
+        public static global::System.Collections.Generic.IList<string> All {
+            get {
+                return __all;
+            }
         }
     }
 }

@@ -12,12 +12,14 @@
 // 
 // ------------------------------------------------------------------------------
 
-
-
-public sealed class SRAnimators {
+namespace TypeSafety {
     
-    private SRAnimators() {
+    
+    public sealed class Animators {
+        
+        private Animators() {
+        }
+        
+        private const string _tsInternal = "1.3.2-Unity5";
     }
-    
-    private const string _tsInternal = "1.3.2-Unity5";
 }

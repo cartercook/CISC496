@@ -12,12 +12,14 @@
 // 
 // ------------------------------------------------------------------------------
 
-
-
-public sealed class SRAudioMixers {
+namespace TypeSafety {
     
-    private SRAudioMixers() {
+    
+    public sealed class AudioMixers {
+        
+        private AudioMixers() {
+        }
+        
+        private const string _tsInternal = "1.3.2-Unity5";
     }
-    
-    private const string _tsInternal = "1.3.2-Unity5";
 }

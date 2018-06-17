@@ -12,48 +12,50 @@
 // 
 // ------------------------------------------------------------------------------
 
-
-
-public sealed class SRLayerMask {
+namespace TypeSafety {
     
-    private SRLayerMask() {
+    
+    public sealed class LayerMask {
+        
+        private LayerMask() {
+        }
+        
+        private const string _tsInternal = "1.3.2-Unity5";
+        
+        public const int All = 2147483647;
+        
+        public const int None = 0;
+        
+        public const int Default = 1;
+        
+        public const int TransparentFX = 2;
+        
+        public const int Ignore_Raycast = 4;
+        
+        public const int Water = 16;
+        
+        public const int UI = 32;
+        
+        public const int Obstacle = 256;
+        
+        public const int Unit = 512;
+        
+        public const int AttackCone = 1024;
+        
+        public const int VR_UI = 2048;
+        
+        public const int Player_Avatar = 4096;
+        
+        public const int RTS_UI = 8192;
+        
+        public const int Grave = 16384;
+        
+        public const int NavMeshAgent = 32768;
+        
+        public const int VR_UI_Worldspace = 65536;
+        
+        public const int ItemCone = 131072;
+        
+        public const int Ground = 262144;
     }
-    
-    private const string _tsInternal = "1.3.2-Unity5";
-    
-    public const int All = 2147483647;
-    
-    public const int None = 0;
-    
-    public const int Default = 1;
-    
-    public const int TransparentFX = 2;
-    
-    public const int Ignore_Raycast = 4;
-    
-    public const int Water = 16;
-    
-    public const int UI = 32;
-    
-    public const int Obstacle = 256;
-    
-    public const int Unit = 512;
-    
-    public const int AttackCone = 1024;
-    
-    public const int VR_UI = 2048;
-    
-    public const int Player_Avatar = 4096;
-    
-    public const int RTS_UI = 8192;
-    
-    public const int Grave = 16384;
-    
-    public const int NavMeshAgent = 32768;
-    
-    public const int VR_UI_Worldspace = 65536;
-    
-    public const int ItemCone = 131072;
-    
-    public const int Ground = 262144;
 }

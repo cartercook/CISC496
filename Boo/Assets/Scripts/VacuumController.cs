@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TypeSafety;
+using Input = UnityEngine.Input;
 
 public class VacuumController : MonoBehaviour {
 
@@ -18,15 +20,15 @@ public class VacuumController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		vacuum = transform.GetChild (0).GetComponent<VacuumCollider> ();
-		lc = transform.GetChild (1).GetComponent<LightCollector> ();
-		vacuum.turnOff ();
-		lc.turnOff ();
-		bombNozzle = GameObject.Find ("Bomb Nozzle");
-		fireBomb = (AudioClip)Resources.Load ("Audio/sfx-firebomb");
-
+		vacuum = transform.GetChild(0).GetComponent<VacuumCollider>();
+		lc = transform.GetChild(1).GetComponent<LightCollector> ();
+		vacuum.turnOff();
+		lc.turnOff();
+		bombNozzle = GameObject.Find("Bomb Nozzle");
+		fireBomb = TypeSafety.Resources.Audio.sfxfirebomb;
+		
 		// set ghosts killed UI number
-		GameObject.Find("Ghosts Killed").GetComponent<Text>().text = GameObject.FindGameObjectsWithTag(RTSControls.UNIT_TAG).Length.ToString();
+		GameObject.Find("Ghosts Killed").GetComponent<Text>().text = GameObject.FindGameObjectsWithTag(Tags.Unit).Length.ToString();
 	}
 	
 	// Update is called once per frame
@@ -44,18 +46,18 @@ public class VacuumController : MonoBehaviour {
 			// GetComponent<AudioSource> ().Stop ();
 		}
 
-		if (OVRInput.GetDown (OVRInput.Button.PrimaryHandTrigger) && (bombs > 0)) {
+		if (OVRInput.GetDown (OVRInput.Button.PrimaryHandTrigger) && bombs > 0) {
 			bombs--;
-			GameObject.Find ("Bombs Left").GetComponent<Text> ().text = bombs.ToString ();
-			GameObject primedBomb = Instantiate (Resources.Load ("Primed Bomb"), bombNozzle.transform.position, bombNozzle.transform.rotation) as GameObject;
-			primedBomb.GetComponent<Rigidbody> ().AddForce (transform.forward * 30.0f, ForceMode.Impulse);
-			GetComponent<AudioSource> ().PlayOneShot (fireBomb, 0.5f);
+			GameObject.Find("Bombs Left").GetComponent<Text>().text = bombs.ToString();
+			GameObject primedBomb = Instantiate<GameObject>(TypeSafety.Resources.Primed_Bomb, bombNozzle.transform.position, bombNozzle.transform.rotation);
+			primedBomb.GetComponent<Rigidbody>().AddForce (transform.forward * 30.0f, ForceMode.Impulse);
+			GetComponent<AudioSource>().PlayOneShot (fireBomb, 0.5f);
 		}
 	}
 
 	public void AddBomb () {
 		bombs++;
-		GameObject.Find ("Bombs Left").GetComponent<Text> ().text = bombs.ToString ();
+		GameObject.Find("Bombs Left").GetComponent<Text>().text = bombs.ToString();
 	}
 
 	void turnOn() {
@@ -64,8 +66,8 @@ public class VacuumController : MonoBehaviour {
 	}
 
 	public void vibrate () {
-		clip = new OVRHapticsClip (hapticsSFX);
-		OVRHaptics.LeftChannel.Mix (clip);
+		clip = new OVRHapticsClip(hapticsSFX);
+		OVRHaptics.LeftChannel.Mix(clip);
 	}
 		
 }

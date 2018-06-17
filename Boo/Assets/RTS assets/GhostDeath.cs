@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TypeSafety;
 
 public class GhostDeath : MonoBehaviour {
 	public string TARGET_NAME;
@@ -24,7 +25,7 @@ public class GhostDeath : MonoBehaviour {
 			transform.position = Vector3.Lerp(startPos, target.position, time);
 			transform.localScale = Vector3.Lerp(startScale, Vector3.zero, time);
 		} else {
-			int ghostsRemaining = GameObject.FindGameObjectsWithTag(RTSControls.UNIT_TAG).Length - 1;
+			int ghostsRemaining = GameObject.FindGameObjectsWithTag(Tags.Unit).Length - 1;
 
 			GameObject.Find("Ghosts Killed").GetComponent<Text>().text = ghostsRemaining.ToString();
 

@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TypeSafety;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.ImageEffects;
+using Input = UnityEngine.Input;
+using LayerMask = UnityEngine.LayerMask;
 
 public class RTSControls : MonoBehaviour {
-	public static readonly string UNIT_TAG = "Unit";
-
 	readonly Rect WORLD_BOUNDS = new Rect(-72, -72, 144, 144);
 	const float PAN_SPEED_RATIO = 2.5f; //camera pans faster as it moves farther from the scene
-	const float HIGHLIGHT_WIDTH = 0.02f;
+	// const float HIGHLIGHT_WIDTH = 0.02f;
 	Texture2D SELECT_TEXTURE;
 	LayerMask TERRAIN_MASK;
 	LayerMask SELECTABLE_MASK;
@@ -36,9 +38,8 @@ public class RTSControls : MonoBehaviour {
 		SELECT_TEXTURE.Apply();
 
 		// layer masks
-		TERRAIN_MASK = LayerMask.GetMask("Ground");
-		SELECTABLE_MASK = LayerMask.GetMask("Unit", "Player Avatar", "Grave");
-
+		TERRAIN_MASK = Layers.Ground.mask;
+		SELECTABLE_MASK = Layers.Unit.mask + Layers.Player_Avatar.mask + Layers.Grave.mask;
 
 		RTSCamera = Camera.allCameras.Single(camera => camera.name == "RTSCamera");
 		
@@ -159,7 +160,7 @@ public class RTSControls : MonoBehaviour {
 			//rect in screen coordinates
 			Rect rect = new Rect(mouseDragOrigin, (Vector2)Input.mousePosition - mouseDragOrigin);
 
-			foreach (GameObject gameObject in GameObject.FindGameObjectsWithTag(UNIT_TAG)) { //FindWithTag is fast since unity caches things by tag
+			foreach (GameObject gameObject in GameObject.FindGameObjectsWithTag(Tags.Unit)) { //FindWithTag is fast since unity caches things by tag
 				if (rect.Contains(RTSCamera.WorldToScreenPoint(gameObject.transform.position), true)) {
 					Ghost unit0 = gameObject.GetComponent<Ghost>();
 					unit0.setHighlight(true);
@@ -179,8 +180,8 @@ public class RTSControls : MonoBehaviour {
 				attackTarget(underMouse);
 			} else if (Physics.Raycast(ray, out hitData, 10000f, TERRAIN_MASK)) {
 				// place the destination marker just above raycast hit, parellel to normal
-				yellowCircle.position = hitData.point + hitData.normal * 0.01f;
-				yellowCircle.forward = hitData.normal;
+				yellowCircle.position = hitData.point + Vector3.up * 0.01f;
+				// yellowCircle.forward = hitData.normal;
 
 				foreach (Ghost unit0 in selectedUnits) {
 					unit0.SetDestination(hitData.point);
@@ -254,7 +255,7 @@ public class RTSControls : MonoBehaviour {
 	// -------------- HELPER FUNCTIONS ---------------
 
 	void selectByNumKeys() {
-		GameObject[] ghosts = GameObject.FindGameObjectsWithTag(UNIT_TAG);
+		GameObject[] ghosts = GameObject.FindGameObjectsWithTag(Tags.Unit);
 		
 		//numbers 1-9
 		for (int i = 1; i <= 9 && i <= ghosts.Length; i++) {
