@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -172651243, guid: 1b23d7222dc4f54439109010ec8c7eb2, type: 3}
+  m_Name: TypeCache
+  m_EditorClassIdentifier: 
+  Contents:
+  - Path: Assets/360VRCameraCaptureRig/Resources/ConvertPanoramaShader.compute
+    Type: UnityEngine.ComputeShader, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/Resources/Pointers/Meshes/ring.asset
+    Type: UnityEngine.Mesh, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/Resources/Pointers/Meshes/HalfRing.asset
+    Type: UnityEngine.Mesh, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/360VRCameraCaptureRig/Resources/TextureToBufferShader.compute
+    Type: UnityEngine.ComputeShader, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/Plugins/macosx/ovrplatform.bundle/Contents/Resources/darwin-x86_64/liboculus_p2p.dylib
+    Type: UnityEditor.DefaultAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/Resources/OculusPlatformSettings.asset
+    Type: Oculus.Platform.PlatformSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/360VRCameraCaptureRig/Resources/ConvertPanoramaStereoShader.compute
+    Type: UnityEngine.ComputeShader, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

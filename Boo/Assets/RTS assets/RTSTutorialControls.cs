@@ -6,11 +6,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class RTSTutorialControls : MonoBehaviour {
-	public static readonly string UNIT_TAG = "Unit";
-
-	readonly Rect WORLD_BOUNDS = new Rect(-72, -72, 144, 144);
-	const float PAN_SPEED_RATIO = 2.5f; //camera pans faster as it moves farther from the scene
-	const float HIGHLIGHT_WIDTH = 0.02f;
 	Texture2D SELECT_TEXTURE;
 	LayerMask TERRAIN_MASK;
 	LayerMask SELECTABLE_MASK;
@@ -18,8 +13,6 @@ public class RTSTutorialControls : MonoBehaviour {
 	float cameraPanSpeed; //camera speed (parallel to the ground)
 	Vector2 mouseDragOrigin; //start pos of a mouse drag
 	RTSEntity hoverHighlight; //unit mouse is hovering over
-	HashSet<Ghost> highlightedUnits = new HashSet<Ghost>(); //units inside selection box
-	HashSet<Ghost> selectedUnits = new HashSet<Ghost>();
 
 	Camera RTSCamera;
 	Transform yellowCircle;
