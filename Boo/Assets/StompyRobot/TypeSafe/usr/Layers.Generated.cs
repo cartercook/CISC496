@@ -118,6 +118,12 @@ namespace TypeSafety {
             }
         }
         
+        public static global::TypeSafe.Layer GhostDestination {
+            get {
+                return __all[16];
+            }
+        }
+        
         private static global::System.Collections.Generic.IList<global::TypeSafe.Layer> __all = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.Layer>(new global::TypeSafe.Layer[] {
                     new global::TypeSafe.Layer("Default", 0),
                     new global::TypeSafe.Layer("TransparentFX", 1),
@@ -134,7 +140,8 @@ namespace TypeSafety {
                     new global::TypeSafe.Layer("NavMeshAgent", 15),
                     new global::TypeSafe.Layer("VR UI Worldspace", 16),
                     new global::TypeSafe.Layer("ItemCone", 17),
-                    new global::TypeSafe.Layer("Ground", 18)});
+                    new global::TypeSafe.Layer("Ground", 18),
+                    new global::TypeSafe.Layer("GhostDestination", 19)});
         
         public static global::System.Collections.Generic.IList<global::TypeSafe.Layer> All {
             get {

@@ -57,5 +57,7 @@ namespace TypeSafety {
         public const int ItemCone = 131072;
         
         public const int Ground = 262144;
+        
+        public const int GhostDestination = 524288;
     }
 }

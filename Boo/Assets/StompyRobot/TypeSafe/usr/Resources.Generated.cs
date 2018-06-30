@@ -76,21 +76,27 @@ namespace TypeSafety {
             }
         }
         
+        public static global::TypeSafe.Resource<global::Oculus.Platform.PlatformSettings> OculusPlatformSettings {
+            get {
+                return ((global::TypeSafe.Resource<global::Oculus.Platform.PlatformSettings>)(__ts_internal_resources[9]));
+            }
+        }
+        
         public static global::TypeSafe.Resource<global::UnityEngine.Mesh> bomb {
             get {
-                return ((global::TypeSafe.Resource<global::UnityEngine.Mesh>)(__ts_internal_resources[9]));
+                return ((global::TypeSafe.Resource<global::UnityEngine.Mesh>)(__ts_internal_resources[10]));
             }
         }
         
         public static global::TypeSafe.Resource<global::UnityEngine.ComputeShader> ConvertPanoramaStereoShader {
             get {
-                return ((global::TypeSafe.Resource<global::UnityEngine.ComputeShader>)(__ts_internal_resources[10]));
+                return ((global::TypeSafe.Resource<global::UnityEngine.ComputeShader>)(__ts_internal_resources[11]));
             }
         }
         
         public static global::TypeSafe.Resource<global::UnityEngine.Sprite> LS_Logo {
             get {
-                return ((global::TypeSafe.Resource<global::UnityEngine.Sprite>)(__ts_internal_resources[11]));
+                return ((global::TypeSafe.Resource<global::UnityEngine.Sprite>)(__ts_internal_resources[12]));
             }
         }
         
@@ -104,6 +110,7 @@ namespace TypeSafety {
                     new global::TypeSafe.PrefabResource("Primed Bomb", "Primed Bomb"),
                     new global::TypeSafe.Resource<global::UnityEngine.Material>("Fader", "Fader"),
                     new global::TypeSafe.PrefabResource("Light Ball", "Light Ball"),
+                    new global::TypeSafe.Resource<global::Oculus.Platform.PlatformSettings>("OculusPlatformSettings", "OculusPlatformSettings"),
                     new global::TypeSafe.Resource<global::UnityEngine.Mesh>("bomb", "bomb"),
                     new global::TypeSafe.Resource<global::UnityEngine.ComputeShader>("ConvertPanoramaStereoShader", "ConvertPanoramaStereoShader"),
                     new global::TypeSafe.Resource<global::UnityEngine.Sprite>("LS_Logo", "LS_Logo")});

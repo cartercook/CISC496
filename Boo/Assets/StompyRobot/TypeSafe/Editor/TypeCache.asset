@@ -28,3 +28,6 @@ MonoBehaviour:
   - Path: Assets/360VRCameraCaptureRig/Resources/ConvertPanoramaStereoShader.compute
     Type: UnityEngine.ComputeShader, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  - Path: Assets/Resources/OculusPlatformSettings.asset
+    Type: Oculus.Platform.PlatformSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
