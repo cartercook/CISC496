@@ -25,9 +25,6 @@ MonoBehaviour:
   - Path: Assets/Plugins/macosx/ovrplatform.bundle/Contents/Resources/darwin-x86_64/liboculus_p2p.dylib
     Type: UnityEditor.DefaultAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  - Path: Assets/Resources/OculusPlatformSettings.asset
-    Type: Oculus.Platform.PlatformSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   - Path: Assets/360VRCameraCaptureRig/Resources/ConvertPanoramaStereoShader.compute
     Type: UnityEngine.ComputeShader, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null

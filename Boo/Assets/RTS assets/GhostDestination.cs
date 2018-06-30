@@ -46,10 +46,11 @@ public class GhostDestination : MonoBehaviour {
 		// TODO: set this to only collide with other GhostDestinations
 		GhostPath otherPath = other.GetComponent<GhostPath>();
 		
-		if ((otherPath.isStopped || otherPath.reachedEndOfPath) && ghost.destination.group//TODO) {
-			// stop ghost
-			ghostPath.SetDestination(ghost.transform.position);
-			
-		}
+		//TODO
+//		if ((otherPath.isStopped || otherPath.reachedEndOfPath) && ghost.destination.group) {
+//			// stop ghost
+//			ghostPath.SetDestination(ghost.transform.position);
+//			
+//		}
 	}
 }
