@@ -3,7 +3,7 @@ using System.Collections;
 
 public class csLightControl : MonoBehaviour {
 	
-	public Light _lihgt;
+	public Light _light;
 	float _time = 0;
 	public float Delay = 0.5f;
 	public float Down = 1;
@@ -14,11 +14,11 @@ public class csLightControl : MonoBehaviour {
 
 		if(_time > Delay)
 		{
-			if(_lihgt.intensity > 0)
-				_lihgt.intensity -= Time.deltaTime*Down;
+			if(_light.intensity > 0)
+                _light.intensity -= Time.deltaTime*Down;
 
-			if(_lihgt.intensity <= 0)
-				_lihgt.intensity = 0;
+			if(_light.intensity <= 0)
+                _light.intensity = 0;
 		}
 	}
 }
