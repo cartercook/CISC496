@@ -75,7 +75,6 @@ public class Ghost : RTSEntity {
 
 	// public setter for navmesh target. Do not use internally! Use AIScript.SetDestination instead
 	public void SetDestination(Vector3 destination) {
-        Debug.Log("Set Dest!");
 		if (attacking) {
 			setAttacking(false);
 			GetComponent<AudioSource>().Stop();
@@ -87,7 +86,6 @@ public class Ghost : RTSEntity {
 
 	public void SetTarget(RTSEntity target)
 	{
-        Debug.Log("Set Targ!");
         //so that we are unable to switch to attacking distant targets immediately
         setAttacking(false);
 		GetComponent<AudioSource>().Stop();
@@ -97,8 +95,6 @@ public class Ghost : RTSEntity {
 	}
 
 	public void Attack() {
-		Debug.Log("attacking target: "+enemy.name);
-
 		setAttacking(true);
 		
 		// stop moving
@@ -128,8 +124,6 @@ public class Ghost : RTSEntity {
 
 			enemy.Damage(10);
 		} else {
-			Debug.Log("stop attacking");
-
 			// stop attacking, remove enemy reference
 			setAttacking(false);
 			GetComponent<AudioSource>().Stop ();

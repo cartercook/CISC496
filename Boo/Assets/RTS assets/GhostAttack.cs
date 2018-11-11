@@ -14,7 +14,6 @@ public class GhostAttack : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision collision) {
-		Debug.Log("collision");
 		// if collision is with ghost's targeted enemy
 		if (ghost.enemy != null && collision.gameObject == ghost.enemy.gameObject) {
 			ghost.Attack();
